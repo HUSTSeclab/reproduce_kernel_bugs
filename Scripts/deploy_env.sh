@@ -39,6 +39,7 @@ if [ "$poc_url" != "" ]; then wget $poc_url -O poc.c; fi
 mkdir -p image
 cp -r $BASE_DIR/Images/wheezy.* image &
 
+#TODO: only build syzkaller if syz_url is non-empty and poc_url is empty
 #6. get certain version of syzkaller
 mkdir -p gopath
 # use GOROOT of the default go1.12 in the system

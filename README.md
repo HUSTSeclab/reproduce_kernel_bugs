@@ -3,6 +3,6 @@ Reproduce kernel bugs found by Syzkaller and provide some useful scripts for the
 
 ## Installation
 
-See [setup.md]{./setup.md} for details.
+See [setup.md](./setup.md) for details.
 
 Note that, there may be some issues in the automation of crash reproduction, for example, kernel compiling errors, syzkaller building.
