@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Large file related with image and kernel
+Images/wheezy.id_rsa
+Images/wheezy.id_rsa.pub
+Images/wheezy.img
+Kernel_repos/linux/
+Kernel_repos/net/
+Kernel_repos/net-next/
+Kernel_repos/linux-next/
+Kernel_repos/linux-next-history/
+Kernel_repos/bpf/
+Kernel_repos/bpf-next/
+Kernel_repos/kmsan/
