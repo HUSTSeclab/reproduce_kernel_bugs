@@ -1,13 +1,13 @@
 #!/bin/bash
 
 if [ $# -ne 1 ];then
-    echo "Please provide a bug id from syzbot dashboard"
-    exit 0
+	echo "Please provide a bug id from syzbot dashboard"
+	exit 0
 fi
 
-if [ -d "$1" -o -d "../$1" ];then
-  echo "The kernel bug $1 already exists"
-  exit 0
+if [ -d "$1" ];then
+	echo "The kernel bug $1 already exists"
+	exit 0
 fi
 
 mkdir -p $1

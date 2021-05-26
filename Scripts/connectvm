@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export IMAGE=image
-export IMG_NAME=wheezy
+export IMG_NAME=stretch
 
 if [ ! -f ".port" ]; then
 echo "Please start vm first"

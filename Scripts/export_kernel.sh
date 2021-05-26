@@ -1,7 +1,7 @@
 #!/bin/bash
 
-BASE_DIR="${PWD}/../.."
-KERNEL_REPO="${BASE_DIR}/Kernel_repos/${kern_repo}"
+BASE_DIR="${PWD}/.."
+KERNEL_REPO="${BASE_DIR}/Kernel_repos/linux"
 TEMP_FILE="/tmp/kernel.zip"
 
 if [ $# -eq 0 ]

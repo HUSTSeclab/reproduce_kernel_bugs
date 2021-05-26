@@ -10,18 +10,18 @@ syzbot = "https://syzkaller.appspot.com"
 
 kernel_map = {
     'upstream': 'linux',
-    'net':'net',
-    'net-next':'net-next',
-    'linux-next':'linux-next-history',
-    'bpf':'bpf',
-    'bpf-next':'bpf-next',
-    "https://github.com/google/kmsan.git master":"kmsan",
-    "https://github.com/google/ktsan.git kcsan":"ktsan",
-    "https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git usb-testing":"usb"
+#    'net':'net',
+#    'net-next':'net-next',
+#    'linux-next':'linux-next-history',
+#    'bpf':'bpf',
+#    'bpf-next':'bpf-next',
+#    "https://github.com/google/kmsan.git master":"kmsan",
+#    "https://github.com/google/ktsan.git kcsan":"ktsan",
+#    "https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git usb-testing":"usb"
 }
 
 close_kernel = [
-    "mmots"
+#    "mmots"
 ]
 
 def write_conf(kernel, k_id, syz_id, config_url, log_url, report_url,

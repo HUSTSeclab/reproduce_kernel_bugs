@@ -7,7 +7,7 @@
 - Download `Images` from remote source(e.g., Google Drive) or manually generate Debian images with `create-image.sh`;
 
 ```
-mkdir -p Kernel_repos
+git clone https://github.com/mudongliang/reproduce_kernel_bugs
 cd Kernel_repos/
 ./download_repos.sh
 cd ..
