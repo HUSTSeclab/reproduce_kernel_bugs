@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://storage.googleapis.com/syzkaller/stretch.img
+wget https://storage.googleapis.com/syzkaller/stretch.img -O stretch.img
 wget https://storage.googleapis.com/syzkaller/stretch.img.key -O stretch.id_rsa
 chmod 0600 stretch.id_rsa
 

@@ -9,14 +9,14 @@
 ```
 git clone https://github.com/mudongliang/reproduce_kernel_bugs
 cd Kernel_repos/
-./download_repos.sh
+./clone_repos.sh
 cd ..
 
+export PATH=$PATH:/usr/local/go/bin
 cd Go_pkg/
 ./install_go.sh
 cd ..
 
-mkdir Images
 cd Images
 ./download_image.sh
 cd ..
