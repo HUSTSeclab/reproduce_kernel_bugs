@@ -4,11 +4,11 @@ set -ex
 
 source repro.cfg
 
-KERNEL_REPO="$HOME/Repos/${kern_repo}"
+BASE_DIR="../.."
+KERNEL_REPO="$BASE_DIR/Kernel_repos/${kern_repo}"
 BACKUP="$PWD/backup"
 TEMP_FILE="/tmp/kernel_${bug_id}.zip"
 PATCH_FILE="/tmp/$1.patch"
-BASE_DIR="../.."
 
 #1. prepare README
 echo "https://syzkaller.appspot.com/bug?id=${bug_id}" > README 
