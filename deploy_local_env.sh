@@ -15,6 +15,8 @@ pushd $1
 cp ../Scripts/get_bug_info.py .
 # If the second argument get_bug_info.py is 1, only export crashes with reproducers;
 # Otherwise, only export crashes without reproducers.
+# Note that if the third argument does not exist, it is 1 by default
+python3 get_bug_info.py $1
 python3 get_bug_info.py $1 1
 for dir in `ls`; do cp ../Scripts/deploy_env.sh $dir; done
 rm -rf get_bug_info.py
