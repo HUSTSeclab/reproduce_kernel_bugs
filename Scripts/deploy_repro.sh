@@ -37,6 +37,7 @@ popd
 pushd linux-patched
 patch -p1 < $BACKUP/0001-*.patch
 make -j32
+popd
 
 #4. get log report and poc
 wget $log_url -O log
