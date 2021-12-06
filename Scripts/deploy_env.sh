@@ -33,7 +33,7 @@ popd
 pushd $KERNEL_REPO
 git format-patch -1 -o $BACKUP $fix_commit
 popd
-#cp -rf linux linux-patched
+cp -rf linux linux-patched
 pushd linux-patched
 patch -p1 < $BACKUP/0001-*.patch
 make -j32
