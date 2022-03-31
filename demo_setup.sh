@@ -23,6 +23,6 @@ pushd Images
 ./download_image.sh
 popd
 
-./deploy_env.sh ddc83e209f712ce63078e146f7c0fe63e1edbc2f
+./deploy_local_env.sh ddc83e209f712ce63078e146f7c0fe63e1edbc2f
 cd ddc83e209f712ce63078e146f7c0fe63e1edbc2f/1
 ./deploy_env.sh
