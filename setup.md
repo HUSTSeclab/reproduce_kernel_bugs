@@ -45,7 +45,7 @@ If `poc.c` exists,
 
 else,
 
-- Copy `repro_in_vm`, `syz-execprog`, `sys-executor` and `log` into QEMU VM;
+- Copy `repro_in_vm`, `syz-execprog`, `sys-executor` and `syz` into QEMU VM;
 - Modify the options in `repro_in_vm` and execute it in the QEMU VM;
 
 ## Environment after executing deploy_case.sh
